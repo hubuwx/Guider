@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.weike"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="18"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" 
+        android:screenOrientation="portrait">
+        <activity
+            android:name="com.example.weike.welcome"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.weike.MainActivity" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.example.weike.regActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.weike.main"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.weike.activity1"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.weike.every_learn_activity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.weike.instruction_activity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.weike.courses_list"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name="com.example.weike.personalMessage"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name="com.example.weike.mycourses" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.example.weike.livecourses" 
+            android:screenOrientation="portrait">
+        </activity>
+            <activity android:name="com.example.weike.learninghistory"
+                android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name="com.example.weike.questions" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.example.weike.myquestions" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.example.weike.mynotes"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name="com.example.weike.PersonalActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+    </application>
+
+</manifest>
